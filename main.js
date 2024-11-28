@@ -1,5 +1,5 @@
 import "./style.css";
-import * as THREE from "three";
+import * as THREE from "./node_modules/three/build/three.module.js";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { RGBELoader } from "three/examples/jsm/loaders/RGBELoader";
 import { EffectComposer } from "three/examples/jsm/postprocessing/EffectComposer";
